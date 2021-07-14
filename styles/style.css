@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0%;
 }
 /* header part */
 .top-cover{
@@ -80,8 +81,32 @@ nav a{
     transition: transform 2s ease-in-out ;
 }
 
+/* player section styles */
+.players{
+    display: inline-grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap:26px;
+    padding-top: 70px;
+    margin-left: 145px;
+    margin-right: 145px;
+}
 
-
-    
-
+    .player .thumbnail img{
+        width:300px;
+        height: 256px;
+        display: flex;
+    }
+    .player-info{
+        margin-left: 16px;
+    }
+    .player{
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 15px;
+    }
+}
+/*highlights section*/
 
